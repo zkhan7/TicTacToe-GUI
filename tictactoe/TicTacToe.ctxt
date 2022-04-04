@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game.\r\n\ "button-pop"\ Borrowed\ from\:\ https\://www.youtube.com/watch?v\=dZeKYWmSZkc\r\n\ "button-highlight"\ Borrowed\ from\:\ https\://www.youtube.com/watch?v\=3hPVv6boahw\r\n\r\n\ @author\ Zakariya\ Khan\ (101186641)\r\n\ @version\ March\ 25,\ 2022\r\n\ @author\ Lynn\ Marshall\r\n\ @version\ November\ 8,\ 2012\r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\ \r\n\ Constructs\ a\ new\ Tic-Tac-Toe\ board.\r\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ clearBoard()
+comment3.text=\r\n\ Sets\ everything\ up\ for\ a\ new\ game.\ \ Marks\ all\ squares\ in\ the\ Tic\ Tac\ Toe\ board\ as\ empty,\r\n\ and\ indicates\ no\ winner\ yet,\ 9\ free\ squares\ and\ the\ current\ player\ is\ player\ X.\r\n
+comment4.params=row\ col
+comment4.target=boolean\ haveWinner(int,\ int)
+comment4.text=\r\n\ Returns\ true\ if\ filling\ the\ given\ square\ gives\ us\ a\ winner,\ and\ false\r\n\ otherwise.\r\n\r\n\ @param\ int\ row\ of\ square\ just\ set\r\n\ @param\ int\ col\ of\ square\ just\ set\r\n\ \r\n\ @return\ true\ if\ we\ have\ a\ winner,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=void\ updateState()
+comment5.text=\r\n\ Returns\ a\ string\ representing\ the\ current\ state\ of\ the\ game.\ \ This\ should\ look\ like\r\n\ a\ regular\ tic\ tac\ toe\ board,\ and\ be\ followed\ by\ a\ message\ if\ the\ game\ is\ over\ that\ says\r\n\ who\ won\ (or\ indicates\ a\ tie).\r\n\r\n\ @return\ String\ representing\ the\ tic\ tac\ toe\ game\ state\r\n
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.text=\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ on\ \r\n\ any\ of\ the\ GUI's\ buttons.\ \r\n
+comment7.params=e
+comment7.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment7.text=\r\n\ Detects\ when\ the\ mouse\ enters\ the\ component.\ \ We\ are\ only\ "listening"\ to\ the\r\n\ JMenu.\ \ We\ highlight\ the\ menu\ name\ when\ the\ mouse\ goes\ into\ that\ component.\r\n\ \r\n\ @param\ e\ The\ mouse\ event\ triggered\ when\ the\ mouse\ was\ moved\ into\ the\ component\r\n
+comment8.params=e
+comment8.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment8.text=\r\n\ Detects\ when\ the\ mouse\ exits\ the\ component.\ \ We\ are\ only\ "listening"\ to\ the\r\n\ JMenu.\ \ We\ stop\ highlighting\ the\ menu\ name\ when\ the\ mouse\ exits\ \ that\ component.\r\n\ \r\n\ @param\ e\ The\ mouse\ event\ triggered\ when\ the\ mouse\ was\ moved\ out\ of\ the\ component\r\n
+numComments=9
