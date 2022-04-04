@@ -12,8 +12,6 @@ import java.net.URL;
  *
  * @author Zakariya Khan (101186641)
  * @version March 25, 2022
- * @author Lynn Marshall
- * @version November 8, 2012
  */
 
 public class TicTacToe extends MouseAdapter implements ActionListener
